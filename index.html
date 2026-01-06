@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galaxy Products - Premium Tech Solutions</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet"> -->
+    <link rel="icon" type="image/x-icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⭐</text></svg>">
+</head>
+<body>
+    <!-- Header & Navigation -->
+    <header class="header">
+        <div class="container">
+            <nav class="navbar">
+                <a href="#" class="logo">
+                    <!-- <img src="fplogo.png" alt="" width="50px"> -->
+                    <img src="GALAXY_logo.png" alt="" width="150px">
+                    <!-- <img src="images/GALAXY_logo.png" -->
+                    <!-- <i class="fas fa-meteor"></i> -->
+                    <!-- <span>Galaxy</span>Products -->
+                </a>
+                
+                <ul class="nav-menu">
+                    <li><a href="#home" class="nav-link active">Home</a></li>
+                    <li><a href="#products" class="nav-link">Products</a></li>
+                    <li><a href="#features" class="nav-link">Features</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#testimonials" class="nav-link">Reviews</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+                
+                <div class="nav-actions">
+                 <button class="btn-icon" id="search-btn">
+                     <i class="fas fa-search"></i>
+                    </button> 
+                    <button class="btn-icon" id="cart-btn">
+                        <i class="fas fa-shopping-cart"></i>
+                        <span class="cart-count">3</span>
+                    </button>
+                    <button class="btn btn-outline">Sign In</button>
+                    <div class="hamburger" id="hamburger">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Search Overlay -->
+    <div class="search-overlay" id="search-overlay">
+        <div class="search-container">
+            <div class="search-header">
+                <h3>Search Products</h3>
+                <button class="close-search" id="close-search">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <div class="search-box">
+                <input type="text" id="search-input" placeholder="What are you looking for?">
+                <button class="btn">
+                    <i class="fas fa-search"></i> Search
+                </button>
+            </div>
+            <div class="search-suggestions">
+                <p>Popular searches: <span>Wireless Earbuds</span>, <span>Smart Watch</span>, <span>Phone Case</span>, <span>Charger</span></p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+     t
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content">
+                 <link rel="canonical" href="https://www.galaxyproduct.com/" /> 
+                <!-- <h1 class="hero-title">Please browse our range of products ranging from Weaving Spares, Spinning Spares, Plastic Woven Sacks and Roll Shop Machines <span class="highlight">Future</span> Today</h1>  -->
+                <!-- <span class="vc_tta-title-text">Weaving Spares</span> -->
+                
+                <!-- <p class="hero-subtitle">Discover premium tech accessories designed to elevate your digital lifestyle. Quality products with innovative features.</p> -->
+                <div class="hero-actions">
+                    <!-- <a href="#products" class="btn btn-primary">Shop Now</a> -->
+                    <img id="image" src="gweaving-1.jpg" alt="Sample Image">
+                    <img id="image" src="gspnning-1.jpg" alt="Sample Image">
+                    
+<!-- <button onclick="showImage()">Show Image</button> -->
+
+<script>
+function showImage() {
+document.getElementById('image').style.display = "block";
+}
+</script>
+                    
+                    <span class="btn btn-outline">Weaving Spares</span>
+                    
+                    <img src="gweaving-1.jpg" alt="" width="150px">
+                    <span class="btn btn-outline">Spining Spares</span>
+                    <img src="gspinning-1.jpg" alt="" width="150px">
+                    <span class="btn btn-outline">Roll Shop Machines</span>
+                    <img src="rollshopp5.jpg" alt="" width="150px">
+                    <span class="btn btn-outline">Plstic Woven Sacks</span>
+                    <img src="gplastic-woven.jpg" alt="" width="150px">
+                    
+                    <!-- <li class="vc_tta-tab vc_active" data-vc-tab=""> -->
+                    <!-- <a href="#1641645346562-d06fe47a-9635" data-vc-tabs="" data-vc-container=".vc_tta" role="tab" aria-selected="true" tabindex="-1"><span class="vc_tta-title-text">Spinning Spares</span></a></li> -->
+                   <!-- <span class="vc_tta-title-text">Spining Spares</span>  -->
+                    
+                   <!-- <a href="#features" class="btn btn-outline">Learn More</a> -->
+                </div>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <h3>10K+</h3>
+                        <p>Happy Customers</p>
+                    </div>
+                    <div class="stat">
+                        <h3>500+</h3>
+                        <p>Products</p>
+                    </div>
+                    <div class="stat">
+                        <h3>24/7</h3>
+                        <p>Support</p>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="image-placeholder">
+                    <div class="product-display">
+                        <div class="product-image main-product">
+                            <div class="product-badge">New</div>
+                        </div>
+                        <div class="product-image secondary-product"></div>
+                        <div class="product-image tertiary-product"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section class="section products" id="products">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Featured Products</h2>
+                <p class="section-subtitle">Discover our most popular tech accessories</p>
+            </div>
+            
+            <div class="product-filters">
+                <button class="filter-btn active" data-filter="all">All Products</button>
+                <button class="filter-btn" data-filter="audio">Audio</button>
+                <button class="filter-btn" data-filter="wearables">Wearables</button>
+                <button class="filter-btn" data-filter="chargers">Chargers</button>
+                <button class="filter-btn" data-filter="cases">Cases</button>
+            </div>
+            
+            <div class="product-grid" id="product-grid">
+                <!-- Products will be loaded via JavaScript -->
+            </div>
+            
+            <div class="section-footer">
+                <a href="#" class="btn btn-outline">View All Products</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="section features" id="features">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Why Choose Galaxy Products</h2>
+                <p class="section-subtitle">We combine innovation with quality to deliver exceptional products</p>
+            </div>
+            
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Premium Quality</h3>
+                    <p>All our products undergo rigorous testing to ensure durability and performance.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-shipping-fast"></i>
+                    </div>
+                    <!-- <img src="contactus1-1.jpg" alt="" width="150px"> -->
+                    <h3>Fast Shipping</h3>
+                    <p>Free shipping on orders over $50. Delivery within 2-3 business days.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-headset"></i>
+                    </div>
+                    <h3>24/7 Support</h3>
+                    <p>Our customer support team is available round the clock to assist you.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-undo-alt"></i>
+                    </div>
+                    <h3>30-Day Return</h3>
+                    <p>Not satisfied? Return any product within 30 days for a full refund.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="section testimonials" id="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Customer Reviews</h2>
+                <p class="section-subtitle">See what our customers are saying about Galaxy Products</p>
+            </div>
+            
+            <div class="testimonials-slider">
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>"The wireless earbuds I purchased exceeded my expectations. The sound quality is amazing and battery life is outstanding!"</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="author-info">
+                            <h4>Alex Johnson</h4>
+                            <p>Verified Customer</p>
+                        </div>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>"Fast shipping and excellent customer service. The phone case I ordered fits perfectly and provides great protection."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="author-info">
+                            <h4>Maria Rodriguez</h4>
+                            <p>Verified Customer</p>
+                        </div>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>"I've bought multiple products from Galaxy and they never disappoint. The quality is consistently high and prices are reasonable."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="author-info">
+                            <h4>David Chen</h4>
+                            <p>Verified Customer</p>
+                        </div>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section contact" id="contact">
+        <div class="container">
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h2>Get In Touch</h2>
+                    <img src="contactus1-1.jpg" alt="" width="150px">
+                    <p>Have questions about our products? Our team is here to help.</p>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4>Our Location</h4>
+                                <p>123 Tech Street, San Francisco, CA 94107</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone-alt"></i>
+                            <div>
+                                <h4>Phone Number</h4>
+                                <p>+1 (555) 123-4567</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email Address</h4>
+                                <p>support@galaxyproduct.com</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Your Message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-col">
+                    <!-- <a href="#" class="logo"> -->
+                        <!-- <i class="fas fa-meteor"></i> -->
+                        <!-- <span>Galaxy</span>Products -->
+                    <!-- </a> -->
+                    <img src="GALAXY_logo.png" alt="" width="150px">
+                    <p>Providing premium tech accessories since 2015. Our mission is to enhance your digital experience with quality products.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#products">Products</a></li>
+                        <li><a href="#features">Features</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Shipping Policy</a></li>
+                        <li><a href="#">Return Policy</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Newsletter</h4>
+                    <p>Subscribe to get updates on new products and special offers.</p>
+                    <div class="newsletter-form">
+                        <input type="email" placeholder="Enter your email">
+                        <button class="btn btn-primary">Subscribe</button>
+                    </div>
+                </div>
+            </div>
+             <img src="GALAXY_logo.png" alt="" width="150px">     
+            <div class="footer-bottom">
+                <p>&copy; 2023 Galaxy Products. All rights reserved.</p>
+                <div class="payment-methods">
+                    <i class="fab fa-cc-visa"></i>
+                    <i class="fab fa-cc-mastercard"></i>
+                    <i class="fab fa-cc-amex"></i>
+                    <i class="fab fa-cc-paypal"></i>
+                    <i class="fab fa-cc-apple-pay"></i>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Shopping Cart Sidebar -->
+    <div class="cart-sidebar" id="cart-sidebar">
+        <div class="cart-header">
+            <h3>Your Cart</h3>
+            <button class="close-cart" id="close-cart">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+        <div class="cart-items">
+            <!-- Cart items will be loaded via JavaScript -->
+        </div>
+        <div class="cart-footer">
+            <div class="cart-total">
+                <span>Total:</span>
+                <span class="total-price">$0.00</span>
+            </div>
+            <button class="btn btn-primary">Checkout</button>
+            <button class="btn btn-outline" id="continue-shopping">Continue Shopping</button>
+        </div>
+    </div>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTop">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
